@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter,
+  HashRouter,
   Route,
   Switch
 } from 'react-router-dom';
@@ -20,7 +20,7 @@ import Featured from './Featured';
 
 
 const App = () => (
-  <BrowserRouter>
+  <HashRouter>
     <div className="container">
     <Header />
     <Switch>
@@ -33,7 +33,7 @@ const App = () => (
     </Switch>
 
     </div>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default App;
